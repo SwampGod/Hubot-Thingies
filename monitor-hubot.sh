@@ -1,7 +1,11 @@
 #!/bin/bash
 # Hubot Process Monitor
 # Restart Hubot When It Goes Down
-# By SwampGod - 10-2012
+# Nothing Fancy By SwampGod - 10-2012
+
+# Add a similar cronjob like below to use this script:
+# */5 * * * * /opt/monitor-hubot.sh >/dev/null 2>&1
+
 # -------------------------------------------------------------------------
 
 # Path to your standard up-down-restart script for hubot
